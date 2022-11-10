@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{916E95EF-F9F7-4443-A06D-4B78E557D0BD}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.723B38BB-DFB4-43E1-9671-7AD0F3BFADF7" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutMenuPage.xaml">
+    <Files>
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutMenuPage.xaml" Line="23" Column="17" />
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutSamplePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutSamplePage.xaml" Line="6" Column="59" />
+      <File FileName="PagePlatziSample/MainPage.xaml" />
+      <File FileName="PagePlatziSample/MainPage.xaml.cs" />
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutPageItem.cs" Line="8" Column="31" />
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutMenuPage.xaml.cs" Line="8" Column="3" />
+      <File FileName="PagePlatziSample/App.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PagePlatziSample" expanded="True">
+            <Node name="PagePlatziSample" expanded="True">
+              <Node name="Platforms" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Pages" expanded="True">
+                  <Node name="FlyoutSample" expanded="True">
+                    <Node name="FlyoutMenuPage.xaml" expanded="True" selected="True" />
+                    <Node name="FlyoutSamplePage.xaml" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PagePlatziSample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.723B38BB-DFB4-43E1-9671-7AD0F3BFADF7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
