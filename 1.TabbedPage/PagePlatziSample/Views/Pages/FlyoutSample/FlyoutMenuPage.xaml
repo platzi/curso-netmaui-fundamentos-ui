@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagePlatziSample.Views.Pages.FlyoutSample.FlyoutMenuPage"
+             xmlns:Views="clr-namespace:PagePlatziSample.Views.Pages.FlyoutSample"
+             xmlns:local="clr-namespace:PagePlatziSample" 
+             Title="FlyoutMenuPage">
+    <CollectionView x:Name="collectionView"
+                    x:FieldModifier="public"
+                    SelectionMode="Single">
+        <CollectionView.ItemsSource>
+            <x:Array Type="{x:Type Views:FlyoutPageItem}">
+                <Views:FlyoutPageItem Title="Contacts"
+                                      IconSource="calendar.png"
+                                      TargetType="{x:Type local:MainPage}" />
+                <Views:FlyoutPageItem Title="TodoList"
+                                      IconSource="calendar.png"
+                                      TargetType="{x:Type local:MainPage}" />
+                <Views:FlyoutPageItem Title="Reminders"
+                                      IconSource="calendar.png"
+                                      TargetType="{x:Type local:MainPage}" />
+            </x:Array>
+        </CollectionView.ItemsSource>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <HorizontalStackLayout Margin="20">
+                    <Image Source="{Binding IconSource}" />
+                    <Label Margin="20,0"
+                           Text="{Binding Title}"
+                           FontSize="20"
+                           VerticalOptions="Center" />
+                </HorizontalStackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

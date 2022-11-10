@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{916E95EF-F9F7-4443-A06D-4B78E557D0BD}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.723B38BB-DFB4-43E1-9671-7AD0F3BFADF7" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PagePlatziSample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.723B38BB-DFB4-43E1-9671-7AD0F3BFADF7" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PagePlatziSample/Views/Pages/TabbedPageSample/TabbedPageSample.xaml">
+    <Files>
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutMenuPage.xaml" />
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutSamplePage.xaml.cs" />
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutSamplePage.xaml" />
+      <File FileName="PagePlatziSample/MainPage.xaml" />
+      <File FileName="PagePlatziSample/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutPageItem.cs" />
+      <File FileName="PagePlatziSample/Views/Pages/FlyoutSample/FlyoutMenuPage.xaml.cs" />
+      <File FileName="PagePlatziSample/Views/Pages/TabbedPageSample/TabbedSamplePage.xaml" Line="10" Column="1" />
+      <File FileName="PagePlatziSample/Views/Pages/TabbedPageSample/TabbedPage2.xaml" Line="6" Column="41" />
+      <File FileName="PagePlatziSample/App.xaml.cs" Line="9" Column="63" />
+      <File FileName="PagePlatziSample/Views/Pages/TabbedPageSample/TabbedPageSample.xaml" Line="12" Column="1" />
+      <File FileName="PagePlatziSample/Views/Pages/TabbedPageSample/TabbedPageSample.xaml.cs" Line="3" Column="51" />
+      <File FileName="PagePlatziSample/Views/Pages/TabbedPageSample/TabbedPage1.xaml" Line="6" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PagePlatziSample" expanded="True">
+            <Node name="PagePlatziSample" expanded="True">
+              <Node name="Platforms" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Pages" expanded="True">
+                  <Node name="TabbedPageSample" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
