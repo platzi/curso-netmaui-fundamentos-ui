@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagePlatziSample.Views.JobProfileUI.JobProfilePage"
+             Title="JobProfilePage"
+             BackgroundColor="#fafafa">
+
+    <Grid RowDefinitions="Auto,Auto,*" RowSpacing="15">
+        <Image Grid.Row="0" Source="jose" Aspect="AspectFit" HeightRequest="360"/>
+
+        <Frame Grid.Row="1" CornerRadius="20" BackgroundColor="White" HasShadow="False" BorderColor="Transparent">
+             <Grid RowDefinitions="Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*" RowSpacing="20" Padding="20">
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="James&#10;Martinia Junior" FontSize="23" FontAttributes="Bold"/>
+                <Label Grid.Row="1" Grid.Column="0" Text=" Actively Looking ✔" TextColor="Silver"/>
+                <Label Grid.Row="2" Grid.Column="0" Text="Applied" FontAttributes="Bold" Padding="0,20,0,0" HorizontalTextAlignment="Center"/>
+                <Label Grid.Row="2" Grid.Column="1" Text="Reviewed" FontAttributes="Bold" Padding="0,20,0,0" HorizontalTextAlignment="Center"/>
+                <Label Grid.Row="2" Grid.Column="2" Text="Contacted" FontAttributes="Bold" Padding="0,20,0,0" HorizontalTextAlignment="Center"/>
+                <Label Grid.Row="3" Grid.Column="0" Text="39" FontSize="19" HorizontalTextAlignment="Center"/>
+                <Label Grid.Row="3" Grid.Column="1" Text="109" FontSize="19" HorizontalTextAlignment="Center"/>
+                <Label Grid.Row="3" Grid.Column="2" Text="30" FontSize="19" HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Frame>
+        <Frame Grid.Row="2" BackgroundColor="#fdecd2" CornerRadius="20" BorderColor="Transparent" HeightRequest="150" VerticalOptions="Center" Margin="0,-50">
+            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto" Padding="15" RowSpacing="10" VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Grid.Row="0" Grid.Column="0" Text="Complete Profile" FontSize="18"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="    * Personal | Job Experience | Certification" FontSize="15"/>
+                <Button Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" BackgroundColor="White" ImageSource="arrow" Margin="10,0,0,0" HeightRequest="45" WidthRequest="45" VerticalOptions="Start"/>
+            </Grid>
+        </Frame>
+    </Grid>
+</ContentPage>

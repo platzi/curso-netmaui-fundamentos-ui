@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagePlatziSample.Views.Layouts.GridSample.GridLayoutChallenge"
+             Title="GridLayoutChallenge">
+    <VerticalStackLayout BackgroundColor="#8c98b1">
+         <!--Elliot Card-->
+        <Frame Margin="20,30" CornerRadius="20">
+            <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto">
+               <!--Imagen de perfil-->
+                <Frame Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" CornerRadius="15" BorderColor="Transparent" IsClippedToBounds="True" Padding="0" HasShadow="False" HeightRequest="120" WidthRequest="120" Margin="0,0,20,0">
+                      <Image Source="mike" Aspect="AspectFill"/>
+                </Frame>
+                 <!--Nombre de perfil-->
+                <Label Grid.Row="0" Grid.Column="1" Text="Elliot Thomson" FontSize="18" VerticalTextAlignment="Center"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="Associate Editor" FontSize="16" TextColor="#7b7b7b"/>
+                 <!--Followers information-->
+                <Frame Grid.Row="2" Grid.Column="1" BackgroundColor="#f2f6fc" BorderColor="Transparent" HeightRequest="70" Margin="0,10">
+                    <Grid ColumnDefinitions="*,*,*" RowDefinitions="*,*" VerticalOptions="Start" HorizontalOptions="FillAndExpand">
+                        <Label Grid.Row="0" Grid.Column="0" Text="Articles" FontSize="11" TextColor="#7b7b7b"/>
+                        <Label Grid.Row="1" Grid.Column="0" Text="34" FontSize="14" FontAttributes="Bold"/>
+                        <Label Grid.Row="0" Grid.Column="1" Text="Followers" FontSize="11" TextColor="#7b7b7b"/>
+                        <Label Grid.Row="1" Grid.Column="1" Text="980" FontSize="14" FontAttributes="Bold"/>
+                        <Label Grid.Row="0" Grid.Column="2" Text="Rating" FontSize="11" TextColor="#7b7b7b"/>
+                        <Label Grid.Row="1" Grid.Column="2" Text="980" FontSize="14" FontAttributes="Bold"/>
+                    </Grid>
+                </Frame>
+                 <!--Buttons-->
+                <Button Grid.Row="3" Grid.Column="0" BackgroundColor="White" BorderColor="#d4d9d9" TextColor="#79838d" BorderWidth="1" HeightRequest="50" Margin="0,0,-20,0" Text="Chat"/>
+                <Button Grid.Row="3" Grid.Column="2" BackgroundColor="#5474ff" TextColor="White" HeightRequest="50" Margin="35,0,0,0" Text="Follow" />
+            </Grid>
+        </Frame>
+
+    </VerticalStackLayout>
+</ContentPage>

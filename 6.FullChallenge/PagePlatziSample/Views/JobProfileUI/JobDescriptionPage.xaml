@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagePlatziSample.Views.JobProfileUI.JobDescriptionPage"
+             Title="JobDescriptionPage">
+   <ScrollView>
+       <Grid RowDefinitions="*,Auto,Auto">
+            <!-- Job Description-->
+            <VerticalStackLayout Grid.Row="0" Spacing="10" Padding="20" VerticalOptions="Center">
+                <Image Source="windows" HeightRequest="60" WidthRequest="60"/>
+                <Label Text="Product Designer" FontSize="20" HorizontalTextAlignment="Center" />
+                <Label Text="Microsoft, Inc." TextColor="#6b747d" FontSize="18" HorizontalTextAlignment="Center"/>
+                <Label Text="Job Description" FontSize="19" Padding="0,20,0,0"/>
+                <Label TextColor="#7d848b" FontSize="16" LineBreakMode="WordWrap" Text="We're a team of youthful, intelligent and dedicated creatives who have an inrivaled energu and passion for crafting beautifil and meaningful products.&#10;&#10;We strive to follow all UX processes of ideation, research and MVP for our product designs to enable output that is both aesthetic and strategic."/>
+                <Label Text="Responsabilities" FontSize="19" Padding="0,20,0,0"/>
+                <Label TextColor="#7d848b" FontSize="16" LineBreakMode="WordWrap" Text="Keep the interface beautiful and easy to use."/>
+            </VerticalStackLayout>
+            <!-- 5. Earn Badge-->
+            <Frame Grid.Row="1" BackgroundColor="#d1faeb" CornerRadius="30" HasShadow="False" HeightRequest="150" BorderColor="Transparent">
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto" VerticalOptions="CenterAndExpand" Padding="15,0" RowSpacing="10" Margin="0,20">
+                         <Label Grid.Row="0" Grid.Column="0" Text="Earn Skill Badge" FontSize="18"/>
+                         <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Skills assesments help you to stand&#10;Our to recluters." FontSize="15"/>
+                         <Button Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" BackgroundColor="White" CornerRadius="10" ImageSource="arrow" WidthRequest="45" HeightRequest="45" VerticalOptions="End"/>
+                 </Grid>  
+            </Frame>
+             <!-- 5. Similar Job-->
+            <Frame Grid.Row="2" BackgroundColor="Black" CornerRadius="30" HasShadow="False" HeightRequest="150" BorderColor="Transparent" Margin="0,-20,0,-35">
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto" VerticalOptions="CenterAndExpand" Padding="15,0" RowSpacing="10">
+                     <Label Grid.Row="0" Grid.Column="0" Text="Similiar JOb Alert" TextColor="White" FontSize="18"/>
+                     <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" TextColor="White" Text="Product designer, Typography, Google LLC." FontSize="15"/>
+                     <Switch Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" BackgroundColor="Transparent" ThumbColor="Black" VerticalOptions="Start"/>
+                </Grid>
+            </Frame>
+        </Grid>
+    </ScrollView>
+</ContentPage>
