@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagePlatziSample.Views.Layouts.GridSample.GridLayoutSample"
+             Title="GridLayoutSample">
+   <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*">
+        <Button Grid.Row="0" Grid.Column="0" BackgroundColor="LightPink"/>
+        <Button Grid.Row="0" Grid.Column="1" BackgroundColor="BlueViolet"/>
+        <Button Grid.Row="1" Grid.Column="0" BackgroundColor="Yellow"/>
+        <Button Grid.Row="1" Grid.Column="1" BackgroundColor="Green"/>
+        <Button Grid.Row="2" Grid.Column="0" BackgroundColor="LightPink"/>
+        <Button Grid.Row="2" Grid.Column="1" BackgroundColor="BlueViolet"/>
+    </Grid>
+</ContentPage>
