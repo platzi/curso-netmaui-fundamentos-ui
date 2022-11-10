@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagePlatziSample.Views.Layouts.FlexLayoutSample.FlexLayoutChallenge"
+             Title="FlexLayoutChallenge">
+
+    <FlexLayout Direction="Column">
+        <Label Text="Choose illustration" HorizontalTextAlignment="Center"/>
+
+        <Frame CornerRadius="20" Margin="20,30">
+            <FlexLayout Direction="Column" AlignItems="Center">
+                <Label Text="Nature" HorizontalTextAlignment="Center"/>
+                <Image Source="house" Aspect="AspectFill"/>
+                <Label Text="50$" FontAttributes="Bold" FontSize="30" TextColor="HotPink"/> 
+            </FlexLayout>
+        </Frame>
+
+    </FlexLayout>
+
+</ContentPage>

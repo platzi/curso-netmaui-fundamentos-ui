@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagePlatziSample.Views.Layouts.AbsoluteLayoutSample.AbsoluteChallenge"
+             Title="AbsoluteChallenge">
+  <AbsoluteLayout HorizontalOptions="CenterAndExpand">
+        <Image Source="creditcard" AbsoluteLayout.LayoutBounds="1,0,350,300" AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label AbsoluteLayout.LayoutBounds=".10,.18,60,30" AbsoluteLayout.LayoutFlags="XProportional,YProportional" BackgroundColor="#C3E9FB"  HorizontalTextAlignment="Center" TextColor="#F00DCB" Text="1111" FontAttributes="Bold" />
+        <Label AbsoluteLayout.LayoutBounds=".35,.18,60,30" AbsoluteLayout.LayoutFlags="XProportional,YProportional" BackgroundColor="#C3E9FB"  HorizontalTextAlignment="Center" TextColor="#F00DCB" Text="2222" FontAttributes="Bold" />
+        <Label AbsoluteLayout.LayoutBounds=".60,.18,60,30" AbsoluteLayout.LayoutFlags="XProportional,YProportional" BackgroundColor="#C3E9FB"  HorizontalTextAlignment="Center" TextColor="#F00DCB" Text="3333" FontAttributes="Bold" />
+        <Label AbsoluteLayout.LayoutBounds=".85,.18,60,30" AbsoluteLayout.LayoutFlags="XProportional,YProportional" BackgroundColor="#C3E9FB"  HorizontalTextAlignment="Center" TextColor="#F00DCB" Text="4444" FontAttributes="Bold" />
+  </AbsoluteLayout>
+</ContentPage>
